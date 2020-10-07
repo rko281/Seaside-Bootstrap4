@@ -1,0 +1,113 @@
+﻿| package |
+package := Package name: 'Bootstrap4-Core-Tests'.
+package paxVersion: 1;
+	basicComment: ''.
+
+
+package classNames
+	add: #SBSAbstractCanvasBrushTest;
+	add: #SBSBackgroundColorTests;
+	add: #SBSCanvasBrushTest;
+	add: #SBSDeploymentLibraryTest;
+	add: #SBSDevelopmentLibraryTest;
+	add: #SBSRootComponentTest;
+	add: #SBSTColumnSelfAlignmentTest;
+	add: #SBSTContentJustificationTest;
+	add: #SBSTextColorTests;
+	add: #SBSTOffsettingTest;
+	add: #SBSTRowItemAlignmentTest;
+	add: #SBSTVisualOrderTest;
+	yourself.
+
+package binaryGlobalNames: (Set new
+	yourself).
+
+package globalAliases: (Set new
+	yourself).
+
+package setPrerequisites: #(
+	'Bootstrap4-Core'
+	'..\Core\Object Arts\Dolphin\MVP\Base\Dolphin MVP Base'
+	'..\Grease\Grease-Tests-Dolphin-Core'
+	'..\Seaside\Seaside\Seaside-Tests-Canvas'
+	'..\Seaside\Seaside\Seaside-Tests-Dolphin-Core'
+	'..\Seaside\Seaside\Seaside-Tests-Dolphin-Functional'
+	'..\Core\Contributions\Camp Smalltalk\SUnit\SUnit').
+
+package setManualPrerequisites: #(
+	'Grease-Tests-Dolphin-Core'
+	'Seaside-Tests-Dolphin-Core'
+	'Seaside-Tests-Dolphin-Functional').
+
+package!
+
+"Class Definitions"!
+
+TestCase subclass: #SBSDeploymentLibraryTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+TestCase subclass: #SBSDevelopmentLibraryTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+TestCase subclass: #SBSRootComponentTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+WAAbstractCanvasBrushTest subclass: #SBSAbstractCanvasBrushTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+WAAbstractCanvasBrushTest subclass: #SBSTextColorTests
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+SBSAbstractCanvasBrushTest subclass: #SBSBackgroundColorTests
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+SBSAbstractCanvasBrushTest subclass: #SBSCanvasBrushTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+SBSAbstractCanvasBrushTest subclass: #SBSTColumnSelfAlignmentTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+SBSAbstractCanvasBrushTest subclass: #SBSTContentJustificationTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+SBSAbstractCanvasBrushTest subclass: #SBSTOffsettingTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+SBSAbstractCanvasBrushTest subclass: #SBSTRowItemAlignmentTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+SBSAbstractCanvasBrushTest subclass: #SBSTVisualOrderTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+"Global Aliases"!
+
+
+"Loose Methods"!
+
+"End of package definition"!
+
